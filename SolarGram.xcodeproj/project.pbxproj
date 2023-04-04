@@ -10,7 +10,8 @@
 		F82B0D1429B5B2D90088C9F4 /* SolarGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B0D1329B5B2D90088C9F4 /* SolarGramApp.swift */; };
 		F82B0D1629B5B2D90088C9F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82B0D1529B5B2D90088C9F4 /* ContentView.swift */; };
 		F82B0D1829B5B2DA0088C9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82B0D1729B5B2DA0088C9F4 /* Assets.xcassets */; };
-		F82B0D1B29B5B2DA0088C9F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82B0D1A29B5B2DA0088C9F4 /* Preview Assets.xcassets */; };
+		F88F20FB29B6FF5B00779618 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = F88F20FA29B6FF5B00779618 /* Preview Content */; };
+		F88F20FD29B6FF7500779618 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F20FC29B6FF7500779618 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +19,8 @@
 		F82B0D1329B5B2D90088C9F4 /* SolarGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarGramApp.swift; sourceTree = "<group>"; };
 		F82B0D1529B5B2D90088C9F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F82B0D1729B5B2DA0088C9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F82B0D1A29B5B2DA0088C9F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F88F20FA29B6FF5B00779618 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		F88F20FC29B6FF7500779618 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,18 +55,11 @@
 			children = (
 				F82B0D1329B5B2D90088C9F4 /* SolarGramApp.swift */,
 				F82B0D1529B5B2D90088C9F4 /* ContentView.swift */,
+				F88F20FC29B6FF7500779618 /* SwiftUIView.swift */,
 				F82B0D1729B5B2DA0088C9F4 /* Assets.xcassets */,
-				F82B0D1929B5B2DA0088C9F4 /* Preview Content */,
+				F88F20FA29B6FF5B00779618 /* Preview Content */,
 			);
 			path = SolarGram;
-			sourceTree = "<group>";
-		};
-		F82B0D1929B5B2DA0088C9F4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F82B0D1A29B5B2DA0088C9F4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +120,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82B0D1B29B5B2DA0088C9F4 /* Preview Assets.xcassets in Resources */,
+				F88F20FB29B6FF5B00779618 /* Preview Content in Resources */,
 				F82B0D1829B5B2DA0088C9F4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +134,7 @@
 			files = (
 				F82B0D1629B5B2D90088C9F4 /* ContentView.swift in Sources */,
 				F82B0D1429B5B2D90088C9F4 /* SolarGramApp.swift in Sources */,
+				F88F20FD29B6FF7500779618 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
